@@ -1,0 +1,15 @@
+train: E:/diplom/project/face-and-eye-detection-1/train/images
+val: E:/diplom/project/face-and-eye-detection-1/valid/images
+test: E:/diplom/project/face-and-eye-detection-1/test/images
+
+nc: 4
+names: ['face-eye', 'closed eye', 'eye', 'face']
+
+
+
+roboflow:
+  workspace: db
+  project: face-and-eye-detection-v1i9c
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/db/face-and-eye-detection-v1i9c/dataset/1

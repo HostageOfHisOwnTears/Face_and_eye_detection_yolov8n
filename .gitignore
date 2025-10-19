@@ -1,0 +1,13 @@
+/dist/
+/build/
+/runs/
+/results/
+/*.pt
+*.exe
+*.avi
+*.mov
+*.zip
+__pycache__/
+*.spec
+venv/
+env/
