@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Specify the path to the CSV file containing training/validation metrics
-csv_path = "tested-runs/detect/face-eye-detector/results.csv"  
+csv_path = "runs/detect/face-eye-detector/results.csv"  
 
 # Load the CSV file containing training/validation metrics
 df = pd.read_csv(csv_path)
